@@ -1,0 +1,82 @@
+#titulo h1 {
+    text-align: center;
+    font-style: oblique;
+    padding: 20px 0;
+    border-top: solid rgb(153, 151, 151) 1px;
+    border-bottom: solid rgb(153, 151, 151) 1px;
+    margin: 15px 0;
+    font-size: 4.5rem;
+    color:rgb(59, 59, 59);
+}
+
+#main-container {
+    width: 100%;
+}
+
+#contenido {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: flow-root;
+    margin-bottom: 20px;
+}
+
+#imagen {
+    width: 42%;
+    float:left;
+    margin-right: 3%;
+    display: flow-root;
+    background-image: url(../imagenes/Tienda/Tienda-1.webp);
+    background-size: 100% 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+#texto {
+    width: 55%;
+    float: right;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#texto img.logo {
+    width: 40px;
+    float: left;
+    margin-right: 5px;
+}
+
+#texto h2 {
+    float:left;
+    margin-top: 3px;
+    font-size: 3rem;
+}
+
+#redes-sociales {
+    width: 100%;
+}
+
+#redes-sociales img {
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#redes-sociales a {
+    text-decoration: none;
+}
+
+.negrita {
+    font-weight: bold;
+    font-style: oblique;
+    padding-top: 50px;
+}
+
+.margen-superior {
+   padding-top: 20px;
+}
+
+.tamano {
+    font-size: 2rem;
+    padding: 15px 15px 15px 0px;
+}
+

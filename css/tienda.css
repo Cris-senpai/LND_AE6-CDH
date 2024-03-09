@@ -1,0 +1,74 @@
+#titulo h1 {
+    text-align: center;
+    font-style: oblique;
+    padding: 20px 0;
+    border-top: solid rgb(153, 151, 151) 1px;
+    border-bottom: solid rgb(153, 151, 151) 1px;
+    margin: 15px 0;
+    font-size: 4.5rem;
+    color:rgb(59, 59, 59);
+}
+
+#articulos {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: flow-root;
+}
+
+.articulo {
+    margin-top: 50px;
+    width: 23%;
+    float:left;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.articulo img {
+    width: 100%;
+}
+
+.articulo h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color:rgb(59, 59, 59);
+}
+
+.articulo a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color:white;
+    background-color: rgb(44, 44, 44);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.articulo p {
+    margin-bottom: 27px;
+    font-size:1.5rem;
+    font-weight: bold;
+    color:rgb(59, 59, 59);
+}
+
+#enlaces {
+    width: 95%;
+    display: flow-root;
+    margin-top: 40px;
+    margin-left: 2.5%;
+    margin-right: 2,5%;
+}
+
+#enlaces a {
+    float:right;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 10px 13px;
+    color:white;
+    background-color: rgb(44, 44, 44);
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+
+}

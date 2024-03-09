@@ -1,0 +1,66 @@
+#main-container {
+    margin-top:15px;
+    padding-top: 15px;
+    border-top: solid rgb(153, 151, 151) 1px;
+    width: 100%;
+}
+
+#titulo {
+    background-image: url(../Imagenes/Carroussel/Carroussel-1.webp);
+    width: 95%;
+    margin-left: 2.5%;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    height: 400px;
+    background-attachment:scroll;
+    background-position-y: 90%;
+}
+
+#titulo h1 {
+    color:white;
+    font-size: 4rem;
+}
+
+#titulo:first-child {
+    padding: 50px;
+}
+
+#contenido {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: flow-root;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#texto {
+    width: 40%;
+    float: left;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+#imagenes {
+    width: 58%;
+    float:right;
+    display: flow-root;
+}
+
+#imagenes img {
+    width: 30%;
+    float: right;
+    margin-left: 3.33%;
+}
+
+#texto a {
+    font-size: 2rem;
+    text-decoration: none;
+    color:white;
+    background-color: rgb(44, 44, 44);
+    padding: 10px 15px;
+    float:left;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+}

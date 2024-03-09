@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLSHOES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+    rel="stylesheet">
+    <link rel="icon" href="../imagenes/Favicon/favicon.png" type="image/png" sizes="96x96">
+    <link rel="stylesheet" href="../css/generico.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="../Imagenes/Logos/Logo.png" alt="Logo">
+            <h2>ALL<span class="naranja">SHOES</span></h2>
+        </div>
+        <div id="menu">
+            <ul class="menu-header">
+                <li class="item-header"><a href="contacto.html">CONTACTO</a></li>
+                <li class="item-header"><a href="tienda.html">TIENDA</a></li>
+                <li class="item-header"><a href="cursos.html">CURSOS</a></li>
+                <li class="item-header"><a href="sobrenosotros.html">SOBRE NOSOTROS</a></li>
+                <li class="item-header"><a href="../index.html">INICIO</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="main-container">
+        <div id="titulo">
+            <h1>CONTACTO</h1>
+        </div>
+        <div id="contenido">
+            <div id="texto">
+                <h1>¿TIENES ALGUNA DUDA?</h1>
+                <p class="cursiva">
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Saepe, vero.
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Eligendi tempore, sapiente cumque, 
+                    laboriosam repellat maxime consectetur 
+                    aperiam fuga itaque distinctio voluptatem! 
+                    Necessitatibus voluptate culpa laudantium 
+                    alias maiores illo ipsum optio nobis quam 
+                    laboriosam fugiat excepturi pariatur tempora 
+                    quaerat iusto tempore, illum obcaecati quasi 
+                    quae ea corporis inventore nisi, aperiam dicta?
+                </p>
+                <p class="tamaño">
+                    E-mail:
+                </p>
+                <a href="mailto:info@allshoes?subject=Tengo una duda sobre...">
+                    <p class="negrita">info@allshoes.es</p>
+                </a>
+                <p class="tamaño">
+                    Redes sociales:
+                </p>
+                <img class="logo" src="../imagenes/Logos/Logo.png" alt="Logo de la página">
+                <a href="https://web.telegram.org" target="_blank">
+                    <img class="telegram" src="../imagenes/RedesSociales/telegram-icon.png" alt="Logo de telegram">
+                </a>
+                <a href="https://twitter.com/home?lang=es" target="_blank">
+                    <img class="twitter" src="../imagenes/RedesSociales/twitter-icon.png" alt="Logo de twitter">
+                </a>
+                <a href="https://web.whatsapp.com" target="_blank">
+                    <img class="whatsapp" src="../imagenes/RedesSociales/whatsapp-logo.png" alt="Logo de whatsapp">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img class="instagram" src="../imagenes/RedesSociales/instagram-logo.png" alt="Logo de instagram">
+                </a>
+                <a href="https://www.facebook.com/?locale=es_ES" target="_blank">
+                    <img class="facebook" src="../imagenes/RedesSociales/facebook-icon.png" alt="Logo de facebook">
+                </a>
+            </div>
+            <div id="formulario">
+                <form action="" method="post" enctype="multipart/form-data">
+                        <input type="text" name="nombre" placeholder="NOMBRE"
+                        required pattern="[A-Za-z]+" title="Solo admite letras"
+                        class="valida">
+                        <input type="email" name="email" placeholder="CORREO (CORREO@EMAIL.COM)"
+                        pattern=".+@.+\..+" title="Introduce un email valido (ejemplo@deemail.com)"
+                        required class="valida">
+                        <input type="tel" name="telefono" placeholder="TELÉFONO (+34 XXX XXX XXX)"
+                        pattern="(\+34 [0-9]{3} [0-9]{3} [0-9]{3}|\+34[0-9]{9}|\+34 [0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2})" 
+                        required title="+34 XXX XXX XXX, +34XXXXXXXXX o +34 XXX XX XX XX"class="valida">
+                        <select name="tema" required>
+                            <option value="" selected="selected">TEMA</option>
+                            <option value="Envios">ENVIOS A MI PAÍS</option>
+                            <option value="GastosEnvio">GASTOS DE ENVÍO</option>
+                            <option value="Tallas">TALLAS DISPONIBLES</option>
+                            <option value="Disenos">DISEÑOS</option>
+                            <option value="Otro">OTRO</option>
+                        </select>
+                        <textarea name="mensaje" id="mensaje" rows="6" spellcheck="true"
+                        placeholder="MENSAJE" required></textarea>
+                        <input type="checkbox" name="condiciones" id="condiciones" required>
+                        <label for="condiciones">Aceptar <a href="">condiciones</a></label>
+                        <input class="enviar" type="submit" value="ENVIAR">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

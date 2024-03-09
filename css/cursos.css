@@ -1,0 +1,83 @@
+#titulo h1 {
+    text-align: center;
+    font-style: oblique;
+    padding: 20px 0;
+    border-top: solid rgb(153, 151, 151) 1px;
+    border-bottom: solid rgb(153, 151, 151) 1px;
+    margin: 15px 0;
+    font-size: 4.5rem;
+    color:rgb(59, 59, 59);
+}
+
+#parte-arriba, #parte-abajo {
+    display: flow-root;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+#texto-arriba, #texto-abajo {
+    width: 52.5%;
+    display: flow-root;
+}
+
+#imagen-arriba, #imagen-abajo {
+    width: 45%;
+}
+
+#texto-arriba {
+    float:right;
+}
+
+#texto-abajo {
+    float:left;
+}
+
+#imagen-arriba {
+    float:left;
+    background-image: url(../imagenes/Cursos/Curso-2.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#imagen-abajo {
+    float:right;
+    background-image: url(../imagenes/Cursos/Curso-1.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+#contenido h1 {
+    margin-top: 50px;
+    font-size: 4.5rem;
+    color:rgb(59, 59, 59);
+    overflow-wrap: break-word;
+}
+
+#contenido p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#contenido .negrita {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color:rgb(59, 59, 59);
+}
+
+#contenido a {
+    font-size: 1.7rem;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    background-color: rgb(207, 200, 190);
+    padding: 10px 50px;
+    border-radius: 17px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    float:right;
+}

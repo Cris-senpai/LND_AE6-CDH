@@ -1,0 +1,57 @@
+#header {
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    display: flow-root;
+}
+
+#logo {
+    width: 22%;
+    display: flow-root;
+    float: left;
+}
+
+#menu {
+    width: 77%;
+    display: flow-root;
+    float: right;
+}
+
+#header h2{
+    color:white;
+    float: left;
+    font-size: 3rem;
+    padding: 8px 0px;
+}
+
+.naranja {
+    color:rgb(196, 106, 4);
+}
+
+#logo img {
+    width: 40px;
+    height: auto;
+    float: left;
+    margin-left: 40px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.menu-header {
+    list-style: none;
+    text-align: center;
+}
+
+.item-header a {
+    color:white;
+    padding: 14.5px 35px;
+    text-decoration: none;
+    float: right;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.item-header a:hover {
+    background-color: rgb(180, 178, 178);
+    color:black
+}
+

@@ -1,0 +1,196 @@
+#titulo h1 {
+    text-align: center;
+    font-style: oblique;
+    padding: 20px 0;
+    border-top: solid rgb(153, 151, 151) 1px;
+    border-bottom: solid rgb(153, 151, 151) 1px;
+    margin: 15px 0;
+    font-size: 4.5rem;
+    color:rgb(59, 59, 59);
+}
+
+#contenido {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    display: flow-root;
+}
+
+#texto {
+    width: 45%;
+    font-size: 1.5rem;
+    text-align: justify;
+    position: relative;
+    float: left;
+}
+
+#formulario {
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    display: flow-root;
+}
+
+#texto h1 {
+    font-size: 4.5rem;
+    color:rgb(59, 59, 59);
+    margin-bottom: 20px;
+}
+
+#texto .cursiva {
+    font-style: oblique;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#texto .negrita {
+    font-weight: bold;
+    color:rgb(59, 59, 59);
+    margin-top: 5px;
+}
+
+#texto .tamaño {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+#texto img {
+    width:7%;
+    position: absolute;
+}
+
+#texto a {
+    text-decoration: none;
+}
+
+#texto .logo {
+    width: 30%;
+    top: 120%;
+    left: 40%;
+}
+
+#texto img.telegram {
+    top:136%;
+    left:28%;
+}
+
+#texto img.whatsapp {
+    width: 9%;
+    top: 118%;
+    left:37%;
+}
+
+#texto img.twitter {
+    left:51.5%;
+    top: 108%;
+}
+
+#texto img.instagram {
+    left: 65%;
+    top:120%;
+}
+
+#texto img.facebook {
+    left:75%;
+    top:137%;
+}
+
+#formulario input, #formulario textarea, #formulario select {
+    display: block;
+    width: 100%;
+    padding: 20px 10px;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color:rgb(59, 59, 59);
+    font-family: "Roboto", sans-serif  ;
+}
+
+#formulario input::placeholder, 
+#formulario textarea::placeholder, #formulario select {
+    font-weight: bold;
+    font-size: 1.7rem;
+    color:rgb(59, 59, 59);
+}
+
+#formulario #condiciones {
+    display: inline;
+    padding: 0;
+    height: 20px;
+    width: 20px;
+    margin: 20px 8px;
+    float: left;
+    cursor: pointer;
+}
+
+#formulario label {
+    font-size: 1.7rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    float: left;
+    color:rgb(59, 59, 59);
+    cursor: pointer;
+}
+
+#formulario select{
+    appearance:none;
+    background-image: url(../imagenes/Formulario/flechita.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 95.5% 50%;
+}
+
+#formulario select:focus, #formulario select:hover {
+    background-image:  url(../imagenes/Formulario/flechita.png), url(../imagenes/Formulario/cuadrado.png);
+    background-size: 20px, 80px 70px;
+    background-position: 95.5% 50%, 100% 50%;
+    cursor: pointer;
+    border-color:black;
+}
+
+#formulario input.enviar {
+    display: inline;
+    float:right;
+    font-size: 1.7rem;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    border:none;
+    background-color: rgb(44, 44, 44);
+    border-radius: 17px;
+    font-weight: bold;
+    width: auto;
+    padding: 10px 60px;
+    margin-top: 50px;
+}
+
+#formulario input.enviar {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#formulario option{
+    background-color: rgb(44, 44, 44);
+    color:white;
+    padding: 100px;
+    cursor: pointer;
+}
+
+#formulario textarea:hover {
+    border-color:black
+}
+
+:is(input.valida):invalid:hover, :is(input.valida):invalid:focus {
+    outline:none;
+    border: 2px solid red;
+    background-color: rgb(225, 159, 159);
+}
+
+:is(input.valida):valid:focus, :is(input.valida):valid:hover {
+    outline:none;
+    border: 2px solid green;
+    background-color: rgb(151, 228, 151);
+}
+  
