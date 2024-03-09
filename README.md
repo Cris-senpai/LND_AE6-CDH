@@ -5,7 +5,7 @@ Actividad Evaluable de CSS.
 * Todos los logos de redes sociales son enlaces funcionales a la red social correspondiente.
 * Todos los botones son enlances que se pueden clickear.
 * En el apartado "TIENDA" los números del carrusel son enlances para en el futuro poder hacerlos funcionales.
-* En el apartado "CONTACTO";
+* En el apartado "CONTACTO":
   * El email "info@allshoes.es" en un enlace que abrirá tu correo con un mensaje preconfigurado en el Asunto, sí tienes el email de Windows configurado.
   * Los inconos de las redes sociales nuevamente son enlaces funcionales hacia la red social que corresponden.
   * El formulario está configurado con patrones en "NOMBRE", "CORREO" y "TELÉFONO", con su mensaje correspondiente (atributo tittle) para saber como rellenar el campo correctamente.
