@@ -35,7 +35,7 @@
 
 #imagen-arriba {
     float:left;
-    background-image: url(../imagenes/Cursos/Curso-2.webp);
+    background-image: url(../imagenes/cursos/curso-2.webp);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 300px;
@@ -43,7 +43,7 @@
 
 #imagen-abajo {
     float:right;
-    background-image: url(../imagenes/Cursos/Curso-1.webp);
+    background-image: url(../imagenes/cursos/curso-1.webp);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 300px;
