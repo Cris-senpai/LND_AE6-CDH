@@ -138,14 +138,14 @@
 
 #formulario select{
     appearance:none;
-    background-image: url(../imagenes/Formulario/flechita.png);
+    background-image: url(../imagenes/formulario/flechita.png);
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 95.5% 50%;
 }
 
 #formulario select:focus, #formulario select:hover {
-    background-image:  url(../imagenes/Formulario/flechita.png), url(../imagenes/Formulario/cuadrado.png);
+    background-image:  url(../imagenes/formulario/flechita.png), url(../imagenes/formulario/cuadrado.png);
     background-size: 20px, 80px 70px;
     background-position: 95.5% 50%, 100% 50%;
     cursor: pointer;
