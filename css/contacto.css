@@ -193,4 +193,9 @@
     border: 2px solid green;
     background-color: rgb(151, 228, 151);
 }
+
+#formulario textarea {
+    max-width: 100%;
+    min-width: 100%;
+}
   
